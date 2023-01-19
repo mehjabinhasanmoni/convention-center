@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MH Convention Center</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <!-- Font Awsome -->
+    <script src="https://kit.fontawesome.com/90d218c767.js" crossorigin="anonymous"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+  <!-- Navigation Manu Start -->
+
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container">
+      <a class="navbar-brand" href="#">MH Convention Center</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">About Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Subscribe</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Banner -->
+
+  <div id="carouselExampleCaptions" class="carousel slide">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h1 class="display-1">The perfect venue for your <br>
+            next event</h1>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+          <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-2">Book Now</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h1 class="display-1">The perfect venue for your <br>
+            next event</h1>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+          <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-2">Book Now</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h1 class="display-1">The perfect venue for your <br>
+            next event</h1>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+          <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-2">Book Now</button>
+
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="images/banner.png" class="d-block w-100" alt="...">
+        <div class="carousel-caption d-none d-md-block text-center">
+          <h1 class="display-1">The perfect venue for your <br>
+            next event</h1>
+          <p>Amet minim mollit non deserunt ullamco est sit aliqua <br> dolor do amet sint. Velit officia consequat duis enim velit </p>
+          <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-2">Book Now</button>
+
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+  <!-- Moment -->
+
+  <section class="container mt-auto">
+    <div class="row d-flex justify-content-center align-items-center my-5 gx-0">
+     <div class="col-6">
+      <img src="images/wedding.png" alt="">
+     </div>
+     <div class="col-6">
+      <h2>Every moment is Precious </h2>
+      <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+      <button  type="button" class="btn btn-primary  px-5 m-3" id="liveToastBtn">Explore our Album</button>
+
+
+<div class="toast-container position-fixed bottom-0 end-0 p-3">
+  <div id="liveToast" class="toast" role="alert" aria-live="assertive" aria-atomic="true">
+    <div class="toast-header  border-start border-info  border-3">
+      <div class="toast-body">
+       <i class="fa fa-arrow-right"></i> 
+       20% off on next booking !
+      </div>
+      <button type="button" class="btn-close" data-bs-dismiss="toast" aria-label="Close"></button>
+      
+    </div>
+    
+  </div>
+</div>
+
+    </div>
+    </div>
+  </section>
+
+  <!-- Our Packages -->
+
+  <section class="container my-5">
+    <h1 class="text-center">Our Package</h1>
+
+    <div class="row m-5">
+      <div class="col">
+        <div class="card custom-card">
+          
+          <div class="card-body">
+            
+            <h2 class="card-title">$300</h2>
+            <h3 class="card-sub-title m-2">Business fair</h3>
+
+            <p class="card-text">For most businesses event 
+              like book fair, craft fair.
+            </p>
+            <ul>
+              <li class="bi bi-check">limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+            </ul>
+            <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-pill">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card custom-card">
+          <div class="card-body">
+            <span class="badge badge-secondary new-badge position-absolute bg-danger border rounded-pill">Hot</span>
+            <h2 class="card-title">$300</h2>
+            <h3 class="card-sub-title m-2">Business fair</h3>
+
+            <p class="card-text">For most businesses event 
+              like book fair, craft fair.
+            </p>
+            <ul>
+              <li class="bi bi-check">limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+            </ul>
+            <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-pill">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card custom-card">
+          <div class="card-body">
+           
+            <h2 class="card-title">$800</h2>
+            <h3 class="card-sub-title m-2">Business fair</h3>
+
+            <p class="card-text">For most businesses event 
+              like book fair, craft fair.
+            </p>
+            <ul>
+              <li class="bi bi-check">limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+            </ul>
+            <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-pill">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card custom-card">
+          <div class="card-body">
+            <span class="badge badge-secondary new-badge position-absolute bg-danger border rounded-pill">Hot</span>
+            <h2 class="card-title">$300</h2>
+            <h3 class="card-sub-title m-2">Business fair</h3>
+
+            <p class="card-text">For most businesses event 
+              like book fair, craft fair.
+            </p>
+            <ul>
+              <li class="bi bi-check">limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+              <li>limited space access</li>
+            </ul>
+            <button type="button" class="btn btn-light text-primary px-5 m-3 border border-0 rounded-pill">Choose Plan</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
+
+  <!-- Test -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+ </body>
+</html>
